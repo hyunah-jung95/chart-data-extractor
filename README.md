@@ -14,6 +14,9 @@ https://github.com/user-attachments/assets/cc043d67-6d00-4017-9c19-03dc8bac9b4c
 ## Gemini Flash vs. Pro:
 - After comparing the Gemini Flash and Pro versions in terms of performance and cost, we chose to proceed with the Flash version due to its optimized balance of both.
 
+# License
+- Source code is proprietary and cannot be shared, as it is a resource of Jigo Incorporation.
+
 # Tech Stacks
 - Streamlit
 - Python
