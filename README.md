@@ -1,25 +1,26 @@
 # Chart Data Extractor
-https://github.com/user-attachments/assets/cc043d67-6d00-4017-9c19-03dc8bac9b4c
+This app is for the users who wants to extract data from chart images in contracts.<br>
+
+[👉 Go to Live APP](https://chart-data-extractor-787703115620.us-west1.run.app)
+
+### 🎬 Demo Video
+
+[🎬 Demo Video](https://github.com/user-attachments/assets/cc043d67-6d00-4017-9c19-03dc8bac9b4c)
 
 # User Flow
-1. Upload an impage file
-2. Gemini-Flash automatically extracts the data
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/75e279a3-ef14-4baa-926a-81f23c3adc6a" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/25f8696f-6d9a-4f45-916d-a579f72668bd" />
 
-# Technical Considerations
-## Streamlit and VertexAI Integration
-- Handling the integration between the Streamlit file uploader widget and the VertexAI API posed a challenge, as detailed below:
-  - The Streamlit file uploader stores the uploaded file as a 'file-like' object.
-  - To interact with the VertexAI API, this object must be converted into a byte stream using the `uploaded_file.getvalue()` method.
-  - The byte stream is then passed to the VertexAI API, where it is converted into an image format compatible with VertexAI using the `vertexai.generative_models.Image.from_bytes()` method.
-## Gemini Flash vs. Pro:
-- After comparing the Gemini Flash and Pro versions in terms of performance and cost, we chose to proceed with the Flash version due to its optimized balance of both.
+
+1. User uploads chart image files.
+2. The app automatically extracts the data in structured form to be stored.
+
+# Technical Highlights
+- Streamlit and VertexAI Integration: Managed file uploads as streams and converted data for compatibility with VertexAI.
 
 # License
-- Source code is proprietary and cannot be shared, as it is a resource of Jigo Incorporation.
+- Associated with Jigo.ai, which holds the app’s license.
 
 # Tech Stacks
-- Streamlit
-- Python
-- VertexAI APIs
-- GCP SDK
-- Docker
+- Programming: Python, Streamlit
+- Gloud Platform: GCP
