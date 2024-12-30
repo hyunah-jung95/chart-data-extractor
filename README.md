@@ -22,3 +22,5 @@ This app is for the users who wants to extract data from chart images in contrac
 # Tech Stacks
 - Programming: Python, Streamlit
 - Gloud Platform: GCP
+
+### [> Tour other projects...](https://github.com/hyunah-jung95#projects)
